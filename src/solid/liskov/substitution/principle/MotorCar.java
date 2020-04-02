@@ -4,6 +4,15 @@ package solid.liskov.substitution.principle;
  * if class A is a subtype of class B, then we should be able to replace B with
  * A without disrupting the behavior of our program.
  * 
+ * Any derived class should be able to substitute it's parent class without the
+ * consumer knowingit.
+ * 
+ * Every class that implements an interface, must be able to substitute any
+ * reference throughout the code that implements that same interface.
+ * 
+ * Every part of the code should get the expected result no matter what instance
+ * of a class you send to it. given it implements the same interface.
+ * 
  * @author G_DisGGreat
  *
  */

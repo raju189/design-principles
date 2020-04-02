@@ -70,6 +70,12 @@ public class Book {
 
 }
 
+/**
+ * we store the name, author, and text associated with an instance of a Book.
+ * 
+ *
+ */
+
 class BookPrinter {
 	// methods for outputting text
 	void printTextToConsole(String text) {
